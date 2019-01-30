@@ -33,9 +33,10 @@
     29 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     30 => 'App\\Providers\\AppServiceProvider',
     31 => 'App\\Providers\\AuthServiceProvider',
-    32 => 'App\\Providers\\EventServiceProvider',
-    33 => 'App\\Providers\\RouteServiceProvider',
-    34 => 'App\\CoreValidation\\Services\\Validation\\ValidationExtensionServiceProvider',
+    32 => 'App\\Providers\\BroadcastServiceProvider',
+    33 => 'App\\Providers\\EventServiceProvider',
+    34 => 'App\\Providers\\RouteServiceProvider',
+    35 => 'App\\CoreValidation\\Services\\Validation\\ValidationExtensionServiceProvider',
   ),
   'eager' => 
   array (
@@ -57,9 +58,10 @@
     15 => 'Carbon\\Laravel\\ServiceProvider',
     16 => 'App\\Providers\\AppServiceProvider',
     17 => 'App\\Providers\\AuthServiceProvider',
-    18 => 'App\\Providers\\EventServiceProvider',
-    19 => 'App\\Providers\\RouteServiceProvider',
-    20 => 'App\\CoreValidation\\Services\\Validation\\ValidationExtensionServiceProvider',
+    18 => 'App\\Providers\\BroadcastServiceProvider',
+    19 => 'App\\Providers\\EventServiceProvider',
+    20 => 'App\\Providers\\RouteServiceProvider',
+    21 => 'App\\CoreValidation\\Services\\Validation\\ValidationExtensionServiceProvider',
   ),
   'deferred' => 
   array (
