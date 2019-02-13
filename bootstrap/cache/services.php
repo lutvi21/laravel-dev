@@ -41,6 +41,7 @@
     37 => 'App\\CoreValidation\\Services\\Validation\\ValidationExtensionServiceProvider',
     38 => 'Dawson\\Youtube\\YoutubeServiceProvider',
     39 => 'Alaouy\\Youtube\\YoutubeServiceProvider',
+    40 => 'App\\Providers\\BroadcastServiceProvider',
   ),
   'eager' => 
   array (
@@ -70,6 +71,7 @@
     23 => 'App\\CoreValidation\\Services\\Validation\\ValidationExtensionServiceProvider',
     24 => 'Dawson\\Youtube\\YoutubeServiceProvider',
     25 => 'Alaouy\\Youtube\\YoutubeServiceProvider',
+    26 => 'App\\Providers\\BroadcastServiceProvider',
   ),
   'deferred' => 
   array (

@@ -21,3 +21,8 @@ Route::get('homepage', 'Web\HomepageController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/test', function () {
+    event(new App\Events\StatusLiked('Someone'));
+    return "Event has been sent!";
+});

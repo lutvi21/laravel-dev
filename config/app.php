@@ -183,9 +183,13 @@ return [
         /*
          * Youtube Class
          */
-
         Dawson\Youtube\YoutubeServiceProvider::class,
         Alaouy\Youtube\YoutubeServiceProvider::class,
+
+        /*
+         * Notifications Channels
+         */
+        App\Providers\BroadcastServiceProvider::class,
     ],
 
     /*
