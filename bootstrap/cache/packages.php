@@ -1,9 +1,31 @@
 <?php return array (
+  'alaouy/youtube' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Alaouy\\Youtube\\YoutubeServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Youtube' => 'Alaouy\\Youtube\\Facades\\Youtube',
+    ),
+  ),
   'beyondcode/laravel-dump-server' => 
   array (
     'providers' => 
     array (
       0 => 'BeyondCode\\DumpServer\\DumpServerServiceProvider',
+    ),
+  ),
+  'dawson/youtube' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Dawson\\Youtube\\YoutubeServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Youtube' => 'Dawson\\Youtube\\Facades\\Youtube',
     ),
   ),
   'fideloper/proxy' => 

@@ -176,9 +176,16 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         /*
-         * Custom Core Classa
+         * Custom Core Class
          */
         App\CoreValidation\Services\Validation\ValidationExtensionServiceProvider::class,
+
+        /*
+         * Youtube Class
+         */
+
+        Dawson\Youtube\YoutubeServiceProvider::class,
+        Alaouy\Youtube\YoutubeServiceProvider::class,
     ],
 
     /*
@@ -228,6 +235,11 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /*
+         * Youtube API
+         */
+        'YoutubeUpload' => Dawson\Youtube\Facades\Youtube::class,
+        'Youtube' => Alaouy\Youtube\Facades\Youtube::class,
     ],
 
 ];
