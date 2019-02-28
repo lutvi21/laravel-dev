@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('email', 'EmailController@sendEmail');
+
 
 Route::get('homepage', 'Web\HomepageController@index');
 
@@ -26,3 +28,4 @@ Route::get('/test', function () {
     event(new App\Events\StatusLiked('Someone'));
     return "Event has been sent!";
 });
+
